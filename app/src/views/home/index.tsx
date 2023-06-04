@@ -24,7 +24,7 @@ export const HomeView: FC = ({ }) => {
 //Crear una referencia hacia un componente 
 const QrRf= useRef<HTMLDivElement>();
 //Guardar la url de nuestro proyecto desplegado 
-const solana_url="solana:https://...";
+const solana_url="solana:https://example-solana-m1kq0k8hi-dokxo96.vercel.app/api/hello";
 //Crear el QR con los parametros de inicialización
 const qr = createQR(solana_url,360,'white','black');
 //Guardar la referencia generada en del componente
